@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Registration Page</title>
-    	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+		<title>Menu de fim de semana</title>
+    	<link rel="stylesheet" type="text/css" href="menu.css" />
+      <link rel="stylesheet" type="text/css" href="bootstrap.css" />
  	</head>
 
 <body>
+    <style>
+      body {
+      background-image: url(mesa3.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+      background-attachment: fixed;
+      }
+
+      
+    </style>
+    
+    <h2>
+      <a href="index.php" class="topheader">HOME</a>
+      <br>
+      <br>
+      <a href="menu.html" class="topheader">MENU</a>
+      <br>
+      <br>
+      <a href="sobre.html" class="topheader">SOBRE A TABERNA</a>
+      <br>
+      <br>
+      <a href="menufds.html" class="topheader">MENU DE FIM DE SEMANA</a>
+      <br>
+      <br>
+      <a href="contactos.html" class="topheader">CONTACTOS</a>
+     </h2>
+
+
 	<div class="container">
 		<div class="row col-md-6 col-md-offset-3">
         <div class="panel panel-primary">
     		<div class="panel-heading text-center">
-				<h1>Menu de Fim de Semana</h1>
+				<h1>Registe-se para receber o Menu de Fim de Semana</h1>
 		  	</div>
 			<div class="panel-body">
 				<form action="add_user.php" method="post">
@@ -33,7 +63,7 @@
                 />
                </div>
               <div class="form-group">
-                <labeapelidoemail">Email</label>
+                <label for="email">Email</label>
                 <input
                   type="text"
                   class="form-control"
@@ -61,5 +91,6 @@
     </div>
     </button>
   </div>
-  </body>
+  </h1>
+</body>
 </html>

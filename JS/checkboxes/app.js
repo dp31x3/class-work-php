@@ -1,5 +1,5 @@
 
-// Get the check-all checkbox element
+// Get the check-all boxes element
 const checkAllCheckbox = document.getElementById("check-all");
 
 // Get all the option checkboxes
