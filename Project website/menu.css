@@ -2,8 +2,8 @@
 body {
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ), url(mesa3.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -28,7 +28,7 @@ li {
     width: 300px;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    background-color: #f9f9f9;
+    background-color:  rgba(0, 0, 0, 0.8);
 }
 
 img {
@@ -63,11 +63,11 @@ h1 { font-family: "Amatic SC";
 
         
 h2 { font-family: "Amatic SC";
-    font-size: 20px;
+    font-size: 40px;
     font-style: normal; 
     font-variant: normal; 
     font-weight: 100%; 
-    line-height: 10px;
+    line-height: 40px;
     color:#ffffff;
     text-align: center;
 
@@ -79,16 +79,16 @@ h3 { font-family: "Amatic SC";
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
-    line-height: 15.4px;
-    color:#000000;
+    line-height: 25px;
+    color:#ffffff;
 } 
 
-h4{font-family: "Amatic SC";
-    font-size: 25px;
+h4 {font-family: "Amatic SC";
+    font-size: 45px;
     font-style: normal; 
     font-variant: normal; 
     font-weight: 100%; 
-    line-height: 30px;
+    line-height: 300px;
     color:#ffffff;
     text-align: center;
 
@@ -96,11 +96,13 @@ h4{font-family: "Amatic SC";
 
 p { 
     font-family: "Amatic SC"; 
-    font-size: px; 
+    font-size: 30px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-    line-height: 20px; } 
+    line-height: 30px;
+    color:#ffffff;
+ } 
 
 blockquote { font-family: "Amatic SC"; 
             font-size: 21px; 
@@ -160,8 +162,10 @@ a.topheader:hover, a.topheader:active {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(253, 247, 247);
+  background-color:rgba(0, 0, 0, 0.8);
   color: white;
-  text-align: center;   
+  text-align: center;
+  margin: 10px;
+  text-align: center; 
 
 }

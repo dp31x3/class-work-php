@@ -27,14 +27,14 @@
 // var_dump( $merged);
 
 
-// $cars = [
-//     "https://volvo.com" => "volvo",
-//     "https://bmw.com" => "bmw",
-//     "https://ford.com" => "ford"];
+$cars = [
+    "https://volvo.com" => "volvo",
+    "https://bmw.com" => "bmw",
+    "https://ford.com" => "ford"];
 
-// foreach ($cars as $href => $car) {
-//     echo "<li><a href='".$href."'>$car</a></li>";
-// }
+foreach ($cars as $href => $car) {
+    echo "<li><a href='".$href."'>$car</a></li>";
+}
 
 
 // $cars = [

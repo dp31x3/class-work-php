@@ -10,77 +10,83 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.css" />
     <link rel="stylesheet" href="menu.css"/>
 </head>
-<img align="right" src="logo.jpg" alt="logo" width="20%" height="50%">
-<br>
-      <a href="index.php" class="topheader">HOME</a>
-      <br>
-      <a href="menu.html" class="topheader">MENU</a>
-      <br>
-      <a href="sobre.html" class="topheader">SOBRE A TABERNA</a>
-      <br>
-      <a href="menufds.html" class="topheader">MENU DE FIM DE SEMANA</a>
-      <br>
-      <a href="contactos.html" class="topheader">CONTACTOS</a>
+
+  <body>
+    <img align="right" src="logo.jpg" alt="logo" width="20%" height="50%"><br>
+          <a href="index.php" class="topheader">PÁGINA INICIAL</a>
+          <br>
+          <a href="menu.html" class="topheader">MENU</a>
+          <br>
+          <a href="sobre.html" class="topheader">SOBRE A TABERNA</a>
+          <br>
+          <a href="menufds.html" class="topheader">MENU DE FIM DE SEMANA</a>
+          <br>
+          <a href="contactos.html" class="topheader">CONTACTOS</a>
 
 
-	<div class="container">
-		<div class="row col-md-6 col-md-offset-3">
-        <div class="panel panel-primary">
-    		<div class="panel-heading text-center">
-				<h1>Registe-se para receber o Menu de Fim de Semana</h1>
-		  	</div>
-			<div class="panel-body">
-				<form action="add_user.php" method="post">
-					<div class="form-group">
-						<label for="Nome">Nome:</label>
-						<input
-                  type="text"
-                  class="form-control"
-                  id="Nome"
-                  name="Nome"
-                />
-              </div>
-              <div class="form-group">
-                <label for="surName">Apelido:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="surName"
-                  name="surName"
-                />
-               </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="telemovel">Telemovel</label>
-                <input
-                  type="telemovel"
-                  class="form-control"
-                  id="telemovel"
-                  name="telemovel"
-                />
-              </div>            
-              <input type="submit" class="btn btn-primary" />
-            </form>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+          <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+          <h1>Registe-se para receber o Menu de Fim de Semana</h1>
           </div>
-          <div class="panel-footer text-right">
-            <small>&copy; Peixe</small>
+        <div class="panel-body">
+          <form action="add_user.php" method="post">
+            <div class="form-group">
+              <label for="Nome">Nome:</label>
+              <input
+                    type="text"
+                    class="form-control"
+                    id="Nome"
+                    name="Nome"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="surName">Apelido:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="surName"
+                    name="surName"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="telemovel">Telemovel</label>
+                  <input
+                    type="telemovel"
+                    class="form-control"
+                    id="telemovel"
+                    name="telemovel"
+                    required
+                  />
+                </div>            
+                <input type="submit" class="btn btn-primary" />
+              </form>
+            </div>
+            <div class="panel-footer text-right">
+              <small>&copy; Peixe</small>
+            </div>
           </div>
         </div>
       </div>
+      </button>
     </div>
-    </button>
-  </div>
-  </h1>
-</body>
-<div class="footer">        
-  <a href="https://www.facebook.com/tabernacacador/" target="_blank"><p>Siga-nos no Facebook</p></a>
-</div>
+    </h1>
+    <br><br><br><br>
+  <div class="footer">        
+    <a href="https://www.facebook.com/tabernacacador/" target="_blank"><p>Siga-nos no Facebook</p></a>
+  </div> 
+  </body>
 </html>

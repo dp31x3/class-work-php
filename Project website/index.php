@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="menu.css">
 </head>
         
-<body>
-    <img align="right" src="logo.jpg" alt="logo" width="20%" height="50%">
-    <br>
-        <a href="index.php" class="topheader">HOME</a>
+    <body>
+        <img align="right" src="logo.jpg" alt="logo" width="20%" height="50%">
         <br>
-        <a href="menu.html" class="topheader">MENU</a>
-        <br>
-        <a href="sobre.html" class="topheader">SOBRE A TABERNA</a>
-        <br>
-        <a href="menufds.html" class="topheader">MENU DE FIM DE SEMANA</a>
-        <br>
-        <a href="contactos.html" class="topheader">CONTACTOS</a>
+            <a href="index.php" class="topheader">PÁGINA INICIAL</a>
+            <br>
+            <a href="menu.html" class="topheader">MENU</a>
+            <br>
+            <a href="sobre.html" class="topheader">SOBRE A TABERNA</a>
+            <br>
+            <a href="menufds.html" class="topheader">MENU DE FIM DE SEMANA</a>
+            <br>
+            <a href="contactos.html" class="topheader">CONTACTOS</a>
 
-    <div class="footer">        
-        <a href="https://www.facebook.com/tabernacacador/" target="_blank"><p>Siga-nos no Facebook</p></a>
-    </div>
-    </html>
+        <div class="footer">        
+            <a href="https://www.facebook.com/tabernacacador/" target="_blank"><p>Siga-nos no Facebook</p></a>
+        </div>
+    </body>    
+</html>
 
