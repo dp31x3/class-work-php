@@ -21,22 +21,12 @@ if ($conn->connect_error) {
     $conn->close();
 }
 
-// Set the value of a PHP variable
-$message = "Registo feito com sucesso!";
+$message = "Registo feito com sucesso! Aguardamos a sua encomenda, obrigado. Vai voltar a página inicial.";
 ?>
 
-<!-- Use PHP to generate dynamic JavaScript code -->
 <script>
-	var message = "<?php echo $message?>";
+  var message = "<?php echo $message?>";
 	alert(message);
-</script>
 
-<script>
-function goToLink() {
-  var message = "Vai voltar a pagina incial, esperamos a sua encomenda.";
-  alert(message);
-  window.location.href = "index.php";
-}
+  window.location.href = "index.php"
 </script>
-
-<button onclick="goToLink()">Página inical</button>
